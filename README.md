@@ -7,7 +7,7 @@ Currently, this only shows an outline, not suggestions. Those are harder to writ
 
 ## Getting Started
 You need the module ```openpyxl```; install from pip  
-You also need the scouting database in the same folder as the program, named 'scouting.xlsx'
+You also need the scouting database in the same folder as the program, named 'scouting.xlsx' (helpfully provided with the repo!)
 
 ## How to Use
 1. Go to Abbreviated NMA
