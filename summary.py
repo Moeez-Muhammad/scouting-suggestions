@@ -6,23 +6,26 @@ ws = wb["Abbreviated NMA"]
 
 def summary(row):
     row = str(row)
+    row_data = ws[row]
+    print(ws["L" + row].value)
+    print(ws["I" + row].value)
     team = {
         "name": ws["A" + row],
         "data": {
-            "max_sandstorm_hatch": ws["B" + row], 
-            "average_sandstorm_hatch": ws["C" + row], 
-            "max_sandstorm_cargo": ws["D" + row], 
-            "average_sandstorm_cargo": ws["E" + row],
-            "max_piece": ws["F" + row],
-            "max_hatch": ws["G" + row],
-            "cargo_ship_rocket1_hatch": ws["H" + row],
-            "higher_level_rocket_hatch": ws["I" + row],
-            "max_cargo": ws["J" + row],
-            "cargo_ship_rocket1_cargo": ws["K" + row],
-            "higher_level_rocket_cargo": ws["L" + row],
-            "higher_level_rocket_average": (ws["L" + row].value + ws["I" + row].value)/2,
-            "climb": ws["M" + row],
-            "penalty": ws["N" + row]
+            "max_sandstorm_hatch": ws["M" + row], 
+            "average_sandstorm_hatch": ws["N" + row], 
+            "max_sandstorm_cargo": ws["O" + row], 
+            "average_sandstorm_cargo": ws["P" + row],
+            "max_piece": ws["C" + row],
+            "max_hatch": ws["D" + row],
+            "cargo_ship_rocket1_hatch": ws["E" + row],
+            "higher_level_rocket_hatch": ws["F" + row],
+            "max_cargo": ws["G" + row],
+            "cargo_ship_rocket1_cargo": ws["H" + row],
+            "higher_level_rocket_cargo": ws["I" + row],
+            "higher_level_rocket_average": (ws["F" + row].value + ws["I" + row].value)/2,
+            "climb": ws["J" + row],
+            "penalty": ws["L" + row]
         },
         "info": [
 
@@ -115,25 +118,25 @@ red_team1 = summary(4)
 red_team2 = summary(5)
 red_team3 = summary(6)
 
-blue_team1 = summary(8)
-blue_team2 = summary(9)
-blue_team3 = summary(10)
+blue_team1 = summary(10)
+blue_team2 = summary(11)
+blue_team3 = summary(12)
 
-print(red_team1["name"])
+print(red_team1["name"].value)
 for info in red_team1["info"]:
     print(info)
-print(red_team2["name"])
+print(red_team2["name"].value)
 for info in red_team2["info"]:
     print(info)
-print(red_team3["name"])
+print(red_team3["name"].value)
 for info in red_team3["info"]:
     print(info)
-print(blue_team1["name"])
+print(blue_team1["name"].value)
 for info in blue_team1["info"]:
     print(info)
-print(blue_team2["name"])
+print(blue_team2["name"].value)
 for info in blue_team2["info"]:
     print(info)
-print(blue_team3["name"])
+print(blue_team3["name"].value)
 for info in blue_team3["info"]:
     print(info)
