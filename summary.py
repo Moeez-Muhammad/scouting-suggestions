@@ -1,37 +1,6 @@
-from openpyxl import load_workbook
-import pdb
+from core import *
 
-wb = load_workbook(filename="scouting.xlsx", data_only=True)
-ws = wb["Abbreviated NMA"]
-
-def summary(row):
-    row = str(row)
-    row_data = ws[row]
-    print(ws["L" + row].value)
-    print(ws["I" + row].value)
-    team = {
-        "name": ws["A" + row],
-        "data": {
-            "max_sandstorm_hatch": ws["M" + row], 
-            "average_sandstorm_hatch": ws["N" + row], 
-            "max_sandstorm_cargo": ws["O" + row], 
-            "average_sandstorm_cargo": ws["P" + row],
-            "max_piece": ws["C" + row],
-            "max_hatch": ws["D" + row],
-            "cargo_ship_rocket1_hatch": ws["E" + row],
-            "higher_level_rocket_hatch": ws["F" + row],
-            "max_cargo": ws["G" + row],
-            "cargo_ship_rocket1_cargo": ws["H" + row],
-            "higher_level_rocket_cargo": ws["I" + row],
-            "higher_level_rocket_average": (ws["F" + row].value + ws["I" + row].value)/2,
-            "climb": ws["J" + row],
-            "penalty": ws["L" + row]
-        },
-        "info": [
-
-        ]
-    }
-
+def summary(team: dict) -> dict:
     team_name = team["name"]
     data = team["data"]
     info = team["info"]
@@ -114,13 +83,13 @@ def summary(row):
     team["info"] = info
     return team
 
-red_team1 = summary(4)
-red_team2 = summary(5)
-red_team3 = summary(6)
+summary(red_team1)
+summary(red_team2)
+summary(red_team3)
 
-blue_team1 = summary(10)
-blue_team2 = summary(11)
-blue_team3 = summary(12)
+summary(blue_team1)
+summary(blue_team2)
+summary(blue_team3)
 
 print(red_team1["name"].value)
 for info in red_team1["info"]:
