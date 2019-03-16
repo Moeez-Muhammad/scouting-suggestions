@@ -1,7 +1,10 @@
 from openpyxl import load_workbook
 import pdb
+import os.path
 
-wb = load_workbook(filename="scouting.xlsx", data_only=True)
+path = os.path.dirname(os.path.abspath(__file__))
+
+wb = load_workbook(filename=os.path.join(path, "scouting.xlsm"), data_only=True)
 ws = wb["Abbreviated NMA"]
 
 def team(row):
@@ -21,7 +24,6 @@ def team(row):
             "max_cargo": ws["G" + row],
             "cargo_ship_rocket1_cargo": ws["H" + row],
             "higher_level_rocket_cargo": ws["I" + row],
-            "higher_level_rocket_average": (ws["F" + row].value + ws["I" + row].value)/2,
             "climb": ws["J" + row],
             "penalty": ws["L" + row]
         },
@@ -29,6 +31,11 @@ def team(row):
 
         ]
     }
+    for k, v in team["data"].items():
+        if team["data"][k].value == "#N/A":
+            team["data"][k].value = 0
+    team["data"]["higher_level_rocket_average"] = (team["data"]["higher_level_rocket_hatch"].value + team["data"]["higher_level_rocket_cargo"].value)/2
+
     return team
 
 red_team1 = team(4)

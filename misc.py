@@ -1,10 +1,12 @@
-from core import wb
 import json
 import requests
 import sys
+import os.path
+from core import path
+from core import wb
 
 def update_matches(event_search: str):
-    with open('events.json', 'r') as events_file:
+    with open(os.path.join(path, 'events.json'), 'r') as events_file:
         events_json = json.load(events_file)
 
     keys = events_json.keys()
@@ -13,13 +15,13 @@ def update_matches(event_search: str):
     event_key = events_json[event]
 
     TBA_URL = "https://www.thebluealliance.com/api/v3/"
-    with open('api_key') as api_key_file:
+    with open(os.path.join(path, 'api_key')) as api_key_file:
         API_KEY = api_key_file.read()
     payload = {'X-TBA-Auth-Key': API_KEY}
 
     r = requests.get(TBA_URL + 'event/{}/matches/simple'.format(event_key), payload)
     match_data = json.loads(r.text)
-    with open('test.json', 'w+') as test_output:
+    with open(os.path.join(path, 'test.json'), 'w+') as test_output:
         json.dump(match_data, test_output, indent=4)
     match_data = sorted(match_data, key=lambda match: match["match_number"])
     
@@ -49,7 +51,5 @@ def update_matches(event_search: str):
             print(blue_teams[2], end=',')
     #wb.save('scouting.xlsx')
 
-
-if __name__ == "__main__":
-    argument = sys.argv[1]
-    update_matches(argument)
+argument = sys.argv[1]
+update_matches(argument)
