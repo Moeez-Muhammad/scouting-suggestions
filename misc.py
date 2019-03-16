@@ -1,6 +1,7 @@
 from core import wb
 import json
 import requests
+import sys
 
 def update_matches(event_search: str):
     with open('events.json', 'r') as events_file:
@@ -20,6 +21,7 @@ def update_matches(event_search: str):
     match_data = json.loads(r.text)
     with open('test.json', 'w+') as test_output:
         json.dump(match_data, test_output, indent=4)
+    match_data = sorted(match_data, key=lambda match: match["match_number"])
     
     ws = wb["EVENT DATA"]
     for match in match_data:
@@ -34,8 +36,20 @@ def update_matches(event_search: str):
             row_data[2].value = red_teams[0]
             row_data[3].value = red_teams[1]
             row_data[4].value = red_teams[2]
+            print('Quals ' + str(match["match_number"]), end=',')
+            print(red_teams[0], end=',')
+            print(red_teams[1], end=',')
+            print(red_teams[2], end=',')
 
             row_data[5].value = blue_teams[0]
             row_data[6].value = blue_teams[1]
             row_data[7].value = blue_teams[2]
-    wb.save('scouting.xlsx')
+            print(blue_teams[0], end=',')
+            print(blue_teams[1], end=',')
+            print(blue_teams[2], end=',')
+    #wb.save('scouting.xlsx')
+
+
+if __name__ == "__main__":
+    argument = sys.argv[1]
+    update_matches(argument)
