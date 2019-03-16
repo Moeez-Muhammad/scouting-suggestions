@@ -83,29 +83,30 @@ def summary(team: dict) -> dict:
     team["info"] = info
     return team
 
-summary(red_team1)
-summary(red_team2)
-summary(red_team3)
+if __name__ == "__main__":
+    summary(red_team1)
+    summary(red_team2)
+    summary(red_team3)
 
-summary(blue_team1)
-summary(blue_team2)
-summary(blue_team3)
+    summary(blue_team1)
+    summary(blue_team2)
+    summary(blue_team3)
 
-print(red_team1["name"].value)
-for info in red_team1["info"]:
-    print(info)
-print(red_team2["name"].value)
-for info in red_team2["info"]:
-    print(info)
-print(red_team3["name"].value)
-for info in red_team3["info"]:
-    print(info)
-print(blue_team1["name"].value)
-for info in blue_team1["info"]:
-    print(info)
-print(blue_team2["name"].value)
-for info in blue_team2["info"]:
-    print(info)
-print(blue_team3["name"].value)
-for info in blue_team3["info"]:
-    print(info)
+    print(red_team1["name"].value)
+    for info in red_team1["info"]:
+        print(info)
+    print(red_team2["name"].value)
+    for info in red_team2["info"]:
+        print(info)
+    print(red_team3["name"].value)
+    for info in red_team3["info"]:
+        print(info)
+    print(blue_team1["name"].value)
+    for info in blue_team1["info"]:
+        print(info)
+    print(blue_team2["name"].value)
+    for info in blue_team2["info"]:
+        print(info)
+    print(blue_team3["name"].value)
+    for info in blue_team3["info"]:
+        print(info)

@@ -5,7 +5,7 @@ import os.path
 from core import path
 from core import wb
 
-def update_matches(event_search: str):
+def get_event_key(event_search: str) -> str:
     with open(os.path.join(path, 'events.json'), 'r') as events_file:
         events_json = json.load(events_file)
 
@@ -14,6 +14,11 @@ def update_matches(event_search: str):
 
     event_key = events_json[event]
 
+    return event_key
+
+def update_matches(event_search: str):
+    event_key = get_event_key(event_search)
+
     TBA_URL = "https://www.thebluealliance.com/api/v3/"
     with open(os.path.join(path, 'api_key')) as api_key_file:
         API_KEY = api_key_file.read()
@@ -21,7 +26,7 @@ def update_matches(event_search: str):
 
     r = requests.get(TBA_URL + 'event/{}/matches/simple'.format(event_key), payload)
     match_data = json.loads(r.text)
-    with open(os.path.join(path, 'test.json'), 'w+') as test_output:
+    with open(os.path.join(path, 'matches.json'), 'w+') as test_output:
         json.dump(match_data, test_output, indent=4)
     match_data = sorted(match_data, key=lambda match: match["match_number"])
     
@@ -49,7 +54,38 @@ def update_matches(event_search: str):
             print(blue_teams[0], end=',')
             print(blue_teams[1], end=',')
             print(blue_teams[2], end=',')
-    #wb.save('scouting.xlsx')
 
-argument = sys.argv[1]
-update_matches(argument)
+#argument = sys.argv[1]
+#update_matches(argument)
+
+def update_teams(event_search: str):
+    event_key = get_event_key(event_search)
+
+    TBA_URL = "https://www.thebluealliance.com/api/v3/"
+    with open(os.path.join(path, 'api_key')) as api_key_file:
+        API_KEY = api_key_file.read()
+    payload = {'X-TBA-Auth-Key': API_KEY}
+
+    r = requests.get(TBA_URL + 'event/{}/teams/simple'.format(event_key), payload)
+    team_data = json.loads(r.text)
+    with open(os.path.join(path, 'teams.json'), 'w+') as test_output:
+        json.dump(team_data, test_output, indent=4)
+    
+    simple_teams = {}
+    for team in team_data:
+        simple_teams[team["team_number"]] = team["nickname"]
+    
+    ws = wb["Scouting Output"]
+    old_team_numbers = ws["A": "A"]
+    old_team_names = ws["B": "B"]
+    
+    old_team_numbers = [number.value for number in old_team_numbers][2:]
+    old_team_names = [name.value for name in old_team_names][2:]
+
+    old_teams = dict(zip(old_team_numbers, old_team_names))
+
+    all_teams = {**simple_teams, **old_teams}
+    for team_number in sorted(all_teams):
+        print(str(team_number), end=",")
+        print(all_teams[team_number], end=",")
+    
