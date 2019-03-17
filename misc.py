@@ -85,7 +85,8 @@ def update_teams(event_search: str):
     old_teams = dict(zip(old_team_numbers, old_team_names))
 
     all_teams = {**simple_teams, **old_teams}
-    for team_number in sorted(all_teams):
+    filtered_all_teams = {k: v for k, v in all_teams.items() if v is not None}
+    for team_number in sorted(filtered_all_teams):
         print(str(team_number), end=",")
-        print(all_teams[team_number], end=",")
+        print(filtered_all_teams[team_number], end=",")
     
