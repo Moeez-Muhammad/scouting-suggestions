@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 import os.path
 
 path = os.path.dirname(os.path.abspath(__file__))
-database_name = "scouting 3-20-2019 2026.xlsm"
+database_name = "scouting 3-24-2019 1002.xlsm"
 
 wb = load_workbook(filename=os.path.join(path, database_name), data_only=True)
 ws = wb["Abbreviated NMA"]
