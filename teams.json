@@ -1,48 +1,30 @@
 [
     {
-        "city": "Scarborough",
+        "city": "Whitby",
         "country": "Canada",
-        "key": "frc1246",
-        "name": "Rotary Club of Agincourt/International Waxes Group/Pizza Nova&Agincourt Collegiate Institute",
-        "nickname": "Agincourt Skunkworks",
+        "key": "frc1075",
+        "name": "GM Canada/Marwood Metal fabricators/Ontario Power Generation & Sinclair Secondary School",
+        "nickname": "Sprockets",
         "state_prov": "Ontario",
-        "team_number": 1246
-    },
-    {
-        "city": "Mississauga",
-        "country": "Canada",
-        "key": "frc1285",
-        "name": "Pratt & Whittney/GM Canada/Johnston Industrial Plastics/CSC/Zerox/DBG Canada Limited/Symcor/Rev Creations/Rakla Tires/Click N Print/Trans Canada/99Cent Depot/Dreams Convention Center/Studica/City of Mississauga/Peel District School Board&Rick hansen S.S",
-        "nickname": "The Big Bang",
-        "state_prov": "Ontario",
-        "team_number": 1285
+        "team_number": 1075
     },
     {
         "city": "Oakville",
         "country": "Canada",
-        "key": "frc1334",
-        "name": "Siemens&Oakville-Trafalgar High School",
-        "nickname": "Red Devils",
+        "key": "frc1360",
+        "name": "Town of Oakville/Woodoer/Pratt & Whitney Canada/Studica/The Woodbridge Group/FORD/TransCanada&Oakville Community FIRST Robotics",
+        "nickname": "Orbit Robotics",
         "state_prov": "Ontario",
-        "team_number": 1334
+        "team_number": 1360
     },
     {
-        "city": "Toronto",
+        "city": "Kingston",
         "country": "Canada",
-        "key": "frc188",
-        "name": "Scotiabank/Eventscape Inc./Accenture/Parkin Architects Ltd./Fidelity Investments/Toronto District School Board&Woburn Collegiate Institute",
-        "nickname": "Blizzard",
+        "key": "frc2708",
+        "name": "Transformix Engineering/B-KIN Technologies/Pure Ingenuity/Ontario Power Generation/TransCanada/Haakon Industries&LIMESTONE DISTRICT PUBLIC BOARD",
+        "nickname": "Lake Effect Robotics",
         "state_prov": "Ontario",
-        "team_number": 188
-    },
-    {
-        "city": "Ottawa",
-        "country": "Canada",
-        "key": "frc2706",
-        "name": "General Dynamics Mission Systems Canada/Ontario Rental and Supply/MVS Remote Video Systems Inc./Rockwell Collins/Carleton University/Ken James/Instant Pot/Solucore Inc./Girones Lawyers/City of Ottawa/ExtremeEDA/Ottawa Public Library/Custom Game Bits/Edward Jones/CSA Group and FIRST/Celplast Metallized Products/Edith Decaire/Ottawa West Community Robotics&Neighborhood Group",
-        "nickname": "Merge Robotics",
-        "state_prov": "Ontario",
-        "team_number": 2706
+        "team_number": 2708
     },
     {
         "city": "Markham",
@@ -54,76 +36,67 @@
         "team_number": 4252
     },
     {
+        "city": "Aurora",
+        "country": "Canada",
+        "key": "frc4343",
+        "name": "Rotary Club of Aurora/Clover Tool Manufacturing Limited/De Ville Electric/Magna/Money in Motion Financial Services/Axiom Group/Town of Aurora Arts and Culture/Optimist Club of Aurora/ZCS - AKIA Engineers/TACC Development/Catholic School Council/Balluff/York Catholic District School Board/Groundworks Construction/Irwin Industrial Fastener/Appex Global/Stemminds/Electrical Safety Authority (ESA)&St Maximilian Kolbe Catholic High School",
+        "nickname": "MaxTech",
+        "state_prov": "Ontario",
+        "team_number": 4343
+    },
+    {
+        "city": "Stoney Creek",
+        "country": "Canada",
+        "key": "frc4618",
+        "name": "Hamilton Wentworth Catholic District School Board/GM Canada/ADI Automation Design & Installation Inc/Union Gas/ArcelorMittal/I-Cubed Industry Innovators Inc/Knights of Columbus Council 7969/The Optimist Club/Knights of Columbus Council 14421&Cardinal Newman Catholic Secondary School",
+        "nickname": "Newman Robotics",
+        "state_prov": "Ontario",
+        "team_number": 4618
+    },
+    {
         "city": "Mississauga",
         "country": "Canada",
-        "key": "frc4308",
-        "name": "Advanced Cutting Solutions/KPS Cutting Solutions/Acura Canada/Mercedes-Benz Canada&The Woodlands School",
-        "nickname": "ABSOLUTE ROBOTICS",
+        "key": "frc4777",
+        "name": "Lakeside Process Controls/International Electronic Components Inc./The Wired Home/St. Marcellinus Secondary School&St. Marcellinus SS",
+        "nickname": "Spirit Robotics",
         "state_prov": "Ontario",
-        "team_number": 4308
-    },
-    {
-        "city": "Brampton",
-        "country": "Canada",
-        "key": "frc4939",
-        "name": "Pratt & Whitney Canada/Central Peel Secondary School/United Technologies Corporation/TransCanada Pipeline/GM Canada&CENTRAL PEEL SECONDARY SCHOOL",
-        "nickname": "Allspark9",
-        "state_prov": "Ontario",
-        "team_number": 4939
-    },
-    {
-        "city": "London",
-        "country": "Canada",
-        "key": "frc5024",
-        "name": "TR Electronics/Enbridge Gas Inc/Byron Optometry/TechAlliance&HB Beal Secondary School",
-        "nickname": "Raider Robotics",
-        "state_prov": "Ontario",
-        "team_number": 5024
+        "team_number": 4777
     },
     {
         "city": "North York",
         "country": "Canada",
-        "key": "frc5031",
-        "name": "Toronto District School Board/Quanser/Dr. Tom Lee/Microsoft/A&K Technologies Inc.&Downsview secondary",
-        "nickname": " Full Metal Mustangs",
+        "key": "frc4914",
+        "name": "Ontario Sheet Metal Apprenticeship Committee/Xerox Canada/TDSB/Milliken Mills Lions Club/Fileco, a division of Teknion & VICTORIA PARK COLLEGIATE INSTITUTE",
+        "nickname": "Panthers",
         "state_prov": "Ontario",
-        "team_number": 5031
+        "team_number": 4914
     },
     {
-        "city": "Scarborough",
+        "city": "London",
         "country": "Canada",
-        "key": "frc5036",
-        "name": "TDSB/Microsoft Canada/Sir Wilfrid Laurier/TD Bank&School",
-        "nickname": "The Robo Devils",
+        "key": "frc5288",
+        "name": "Burwell Auto Body Limited/The Beckett Project/Tooling and Equipment International/Dynamic Point Marketing and Printing/tbk Creative&Mother Teresa Catholic Secondary School",
+        "nickname": "Spartan Robotics",
         "state_prov": "Ontario",
-        "team_number": 5036
+        "team_number": 5288
     },
     {
-        "city": "Sarnia",
+        "city": "Toronto",
         "country": "Canada",
-        "key": "frc5039",
-        "name": "NOVA Chemicals/Rockwell Automation/Langtree Controls Limited/Electrozad Supply Limited - Sarnia/ISA Sarnia Section/PEO Sarnia Section/Sylvan Automation Ltd.&St. Patrick's Catholic High School",
-        "nickname": "Irish Iron",
+        "key": "frc5596",
+        "name": "Modern Machine & Tool Ltd./Agincourt Hyundai/RBC Investments/T.C.D.S.B. - Specilaist High Skills Major&Mary Ward C.H.S.",
+        "nickname": "Wolverines",
         "state_prov": "Ontario",
-        "team_number": 5039
+        "team_number": 5596
     },
     {
-        "city": "Ajax",
+        "city": "Toronto",
         "country": "Canada",
-        "key": "frc5076",
-        "name": "Desjardins Foundation/Ontario Power Generation/Rotary Club of Ajax/J. Clarke Richardson and District School Board/RCM Technologies/Kumon Ajax/Team 1075 Sprockets/Team 4343 Maxtech&HOME SCHOOL",
-        "nickname": "Richardson Stormbots",
+        "key": "frc5699",
+        "name": "Forest Hill Collegiate Institute",
+        "nickname": "Robo Sapiens",
         "state_prov": "Ontario",
-        "team_number": 5076
-    },
-    {
-        "city": "Hamilton",
-        "country": "Canada",
-        "key": "frc5406",
-        "name": "HWCDSB/John Deere Canada/Heritage Green Trust/Arcellor Mittal Dofasco/McMaster Innovation Park&Bishop Ryan Catholic Secondary School",
-        "nickname": "Celt-X",
-        "state_prov": "Ontario",
-        "team_number": 5406
+        "team_number": 5699
     },
     {
         "city": "Toronto",
@@ -135,31 +108,58 @@
         "team_number": 5719
     },
     {
+        "city": "Mississauga",
+        "country": "Canada",
+        "key": "frc5921",
+        "name": "Hewlett Packard - Silicon Valley Community Foundation/Phillips, Hager and North/Omniware/Argosy Foundation/FIRST Robotics Canada & T. L. KENNEDY SECONDARY SCHOOL",
+        "nickname": "Binary Power",
+        "state_prov": "Ontario",
+        "team_number": 5921
+    },
+    {
+        "city": "Toronto",
+        "country": "Canada",
+        "key": "frc6130",
+        "name": "TCDSB/House of Electrical &St. Patrick's CSS",
+        "nickname": "Vipers",
+        "state_prov": "Ontario",
+        "team_number": 6130
+    },
+    {
         "city": "Scarborough",
         "country": "Canada",
-        "key": "frc5911",
-        "name": "Toronto District School Board/Ryerson University Faculty of Engineering/Black and McDonald/TeamGantt&Stephen Leacock CI",
-        "nickname": "PARAGON",
+        "key": "frc6140",
+        "name": "Microsoft Corporation/RBC Wealth Management/Argosy Hardship Grant/FIRST Robotics Canada/PRINCESS AUTO/TORONTO CATHOLIC DISTRICT SCHOOL BOARD/St. Mother Teresa Catholic Academy&St. Mother Teresa Catholic Academy",
+        "nickname": "SMT Titans",
         "state_prov": "Ontario",
-        "team_number": 5911
+        "team_number": 6140
     },
     {
-        "city": "London",
+        "city": "Toronto",
         "country": "Canada",
-        "key": "frc6162",
-        "name": "2017 FRC\u00ae Hardship Grant/2016 FRC\u00ae Hardship Grant&London International Academy",
-        "nickname": "Cap Alpaca",
+        "key": "frc6141",
+        "name": "Microsoft&Senator O'Connor College School",
+        "nickname": "O'Connor Robotics",
         "state_prov": "Ontario",
-        "team_number": 6162
+        "team_number": 6141
     },
     {
-        "city": "Ancaster",
+        "city": "Burlington",
         "country": "Canada",
-        "key": "frc6342",
-        "name": "Hamilton Wentworth Catholic District School Board/LC Bakery Equipment /Rockwell Automation/Acelor Mittal Dofasco/Gerrie Electric/Acco Brands &Bishop Tonnos Catholic Secondary School",
-        "nickname": "BT Robotics",
+        "key": "frc6323",
+        "name": "Halton District School Board/ArcelorMittal Dofasco/UPS Battery Inc./Public Storage/Canadian Cinema Services/L3 Wescam/ABC Group/Omron/Dan's Welding/P&A Plastics&Dr. Frank J Hayden Secondary School",
+        "nickname": "Hayden Robotics",
         "state_prov": "Ontario",
-        "team_number": 6342
+        "team_number": 6323
+    },
+    {
+        "city": "Mississauga",
+        "country": "Canada",
+        "key": "frc6378",
+        "name": "emami/Peel District School Board &Stephen Lewis Secondary School",
+        "nickname": "LYNX",
+        "state_prov": "Ontario",
+        "team_number": 6378
     },
     {
         "city": "York",
@@ -171,67 +171,58 @@
         "team_number": 6397
     },
     {
-        "city": "Markham",
+        "city": "Toronto",
         "country": "Canada",
-        "key": "frc6866",
-        "name": "Family/Community",
-        "nickname": "The Space Invaders",
+        "key": "frc6632",
+        "name": "Maintenance and Construction Skilled Trades Council/Canadian Tire Corporation/Toronto Distric School Board&Northview Heights Secondary School",
+        "nickname": "Supreme Robotics",
         "state_prov": "Ontario",
-        "team_number": 6866
+        "team_number": 6632
+    },
+    {
+        "city": "Atikokan",
+        "country": "Canada",
+        "key": "frc6917",
+        "name": "Xerox/Ontario Power Generation/Atikokan Fire Rescue/Atikokan Foodland/Chris Viinikka CPA/Colliers International/Atikokan High School/Microsoft/Rainy River District School Board/Argosy Foundation&Atikokan HS",
+        "nickname": "Voyageur Robotics",
+        "state_prov": "Ontario",
+        "team_number": 6917
+    },
+    {
+        "city": "Scarborough",
+        "country": "Canada",
+        "key": "frc6975",
+        "name": "Neil McNeil High School",
+        "nickname": "Neil McNeil Maroonotics",
+        "state_prov": "Ontario",
+        "team_number": 6975
     },
     {
         "city": "North York",
         "country": "Canada",
-        "key": "frc6867",
-        "name": "Toronto District School Board/Agosy Foundation/Milwaukee/Toronto Eglinton Rotary Club/Fidelity Investments/BVGlazing/Magna International/Sable Metal Fabrication Inc./HD Supply Brafasco/Compugen/Perfume Toronto&JOHN POLANYI COLLEGIATE INSTITUTE",
-        "nickname": "Panthera Tech",
+        "key": "frc6977",
+        "name": "Toronto District School Board/Microsoft Canada&Emery Collegiate Institute",
+        "nickname": "Cyber Squad",
         "state_prov": "Ontario",
-        "team_number": 6867
+        "team_number": 6977
     },
     {
-        "city": "Hamilton",
+        "city": "Scarborough",
         "country": "Canada",
-        "key": "frc6878",
-        "name": "ArcelorMittal Dofasco/Hamilton Wentworth Catholic District School Boards/Newman Robotics 4618/Celt-X 5406&ST. JEAN DE BREBEUF SECONDARY SCHOOL",
-        "nickname": "SJB Odyssey ",
+        "key": "frc7013",
+        "name": "FIRST Canada/Argosy Rookie Grant/Humber College/Microsoft/First TD Grant&African-Canadian Christian Network",
+        "nickname": "ACCN Techtronix",
         "state_prov": "Ontario",
-        "team_number": 6878
+        "team_number": 7013
     },
     {
-        "city": "Etobicoke",
+        "city": "Alliston",
         "country": "Canada",
-        "key": "frc7136",
-        "name": "Thistletown Collegiate Institute",
-        "nickname": "Thistletown Scot Bots",
+        "key": "frc7200",
+        "name": "FIRST Canada&Banting Memorial High School",
+        "nickname": "Banting Memorial high school",
         "state_prov": "Ontario",
-        "team_number": 7136
-    },
-    {
-        "city": "Aurora",
-        "country": "Canada",
-        "key": "frc7456",
-        "name": "Magna/2019 Argosy Foundation FRC Rookie Grant/FIRST Canada/Macrodyne/Almac Industrial Systems/Aurora Scientific/Town of Aurora/The Rotary Club/Environmental Science Engineering Magazine/Christian Chirila/Mathnasium&Aurora High School",
-        "nickname": "Aurobots",
-        "state_prov": "Ontario",
-        "team_number": 7456
-    },
-    {
-        "city": "North York",
-        "country": "Canada",
-        "key": "frc746",
-        "name": "Toronto District School Board/Westview Centennial Secondary School/Microsoft Canada/Thorne Innovations/RBC Wealth Management-PH&N Investment Counsel&Westview Centennial Secondary School&Westview centennial Secondary School",
-        "nickname": "Gearheads",
-        "state_prov": "Ontario",
-        "team_number": 746
-    },
-    {
-        "city": "Kanata",
-        "country": "Canada",
-        "key": "frc7476",
-        "name": "Carleton University Faculty of Engineering and Design/Ross Video/Epiphan/Unlimited Capabilities/OCDSB/Eastway Tank/ITBPC Consulting&Earl of March Secondary School",
-        "nickname": "EOM Lions",
-        "state_prov": "Ontario",
-        "team_number": 7476
+        "team_number": 7200
     },
     {
         "city": "North York",
@@ -243,22 +234,85 @@
         "team_number": 7520
     },
     {
-        "city": "Richmond Hill",
+        "city": "North York",
         "country": "Canada",
-        "key": "frc7690",
-        "name": "The STEAM Project&Alexander Mackenzie High School",
-        "nickname": "Iron Works Robotics",
+        "key": "frc7558",
+        "name": "FIRST Canada/2019 Argosy Foundation/Formatica 2000 Inc.&BAYVIEW GLEN SCHOOL",
+        "nickname": "ALT-F4",
         "state_prov": "Ontario",
-        "team_number": 7690
+        "team_number": 7558
+    },
+    {
+        "city": "Markham",
+        "country": "Canada",
+        "key": "frc7603",
+        "name": "Bill Hogarth Secondary School",
+        "nickname": "Bill Hogarth Secondary School",
+        "state_prov": "Ontario",
+        "team_number": 7603
+    },
+    {
+        "city": "Newmarket",
+        "country": "Canada",
+        "key": "frc7614",
+        "name": "Newmakeit/CPG Aerospace/Rangle/Data Access Technologies&Newmarket High School",
+        "nickname": "NHS Robotics",
+        "state_prov": "Ontario",
+        "team_number": 7614
+    },
+    {
+        "city": "Mississauga",
+        "country": "Canada",
+        "key": "frc7659",
+        "name": "Argosy Foundation/Dassault Systemes/K-Tool/DXC Technology/FIRST Canada/Future-Cronicles.com/Hatch&Holy Name of Mary College School",
+        "nickname": "HNMCS Robotics",
+        "state_prov": "Ontario",
+        "team_number": 7659
     },
     {
         "city": "Scarborough",
         "country": "Canada",
-        "key": "frc7710",
-        "name": "Sir Oliver Mowat Collegiate Institute",
-        "nickname": "Mowat Mustangs",
+        "key": "frc7712",
+        "name": "ACCN/FIRST Canada/FIRST Rookie Grant (Argosy)/University of Toronto Scarborough Campus/Celebrating Life Ministries/Rita & Rob Regimbal/Denis Regimbal/David Regimbal/John Raymonds/Nicole James/Carmela & Dan Murphy/Wende Grant&African Canadian Christian Network",
+        "nickname": "ACCN UMOJA",
         "state_prov": "Ontario",
-        "team_number": 7710
+        "team_number": 7712
+    },
+    {
+        "city": "Markham",
+        "country": "Canada",
+        "key": "frc7721",
+        "name": "Markham District Energy Inc. &Unionville High School",
+        "nickname": "UHS Wolfpack",
+        "state_prov": "Ontario",
+        "team_number": 7721
+    },
+    {
+        "city": "Markham",
+        "country": "Canada",
+        "key": "frc7735",
+        "name": "2019 Argosy Foundation FIRST\u00ae Robotics Competition Rookie Grant/FIRST Robotics Canada/Milliken Mills High School&Milliken Mills High School",
+        "nickname": "Milliken Mills Knights",
+        "state_prov": "Ontario",
+        "team_number": 7735
+    },
+    {
+        "city": "Etobicoke",
+        "country": "Canada",
+        "key": "frc854",
+        "name": "TDSB/Hatch Ltd&Martingrove Collegiate Institute",
+        "nickname": "Iron Bears",
+        "state_prov": "Ontario",
+        "team_number": 854
+    },
+    {
+        "city": "East York",
+        "country": "Canada",
+        "key": "frc907",
+        "name": "Toronto District School Board/Amada Canada Ltd./East York Collegiate SAC&East York Collegiate Institute",
+        "nickname": "East York Cybernetics \"The Cybernauts\"",
+        "state_prov": "Ontario",
+        "team_number": 907
     },
     {
         "city": "Toronto",
