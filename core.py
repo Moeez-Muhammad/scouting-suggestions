@@ -1,8 +1,12 @@
 from openpyxl import load_workbook
-import os.path
+import os
+import re
 
 path = os.path.dirname(os.path.abspath(__file__))
-database_name = "scouting 3-24-2019 1002.xlsm"
+
+for filename in os.listdir(path):
+    if re.match("scouting.*\.xlsm", filename):
+        database_name = filename
 
 wb = load_workbook(filename=os.path.join(path, database_name), data_only=True)
 ws = wb["Abbreviated NMA"]
